@@ -1,0 +1,59 @@
+body {
+  font-family: PingFang SC, Arial, Microsoft YaHei, sans-serif;
+  color: #4a4a4a;
+}
+.con {
+  max-width: 1380px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+img {
+  max-width: 100%;
+  border-style: none;
+  height: auto;
+  display: inline-block;
+}
+ul li {
+  list-style: none;
+}
+a {
+  list-style: none;
+}
+input {
+  background: none;
+  outline: none;
+  border: none;
+}
+/* 常用封装 */
+.flex-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-a-c {
+  display: flex;
+  align-items: center;
+}
+
+.text-o-1,
+.text-o-2 {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+.text-o-1 {
+  -webkit-line-clamp: 1;
+}
+.text-o-2 {
+  -webkit-line-clamp: 2;
+}
+.c-pointer {
+  cursor: pointer;
+}
+.shadow {
+  background-color: #fff;
+  box-shadow: 0 5px 40px -1px rgba(2, 10, 18, 0.1);
+}

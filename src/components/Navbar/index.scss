@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  color: #fff;
+  // background-color: pink;
+  position: relative;
+  .backicon {
+    font-size: 40px;
+    margin-left: 28px;
+  }
+  .navbar-content {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

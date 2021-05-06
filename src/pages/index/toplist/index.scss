@@ -1,0 +1,56 @@
+.Toplist {
+  margin-top: 24px;
+  background-color: #fff;
+  border-radius: 16px;
+  padding-top: 12px;
+  overflow: hidden;
+  .swiper {
+    height: 530px;
+    background-color: #fff;
+    padding-bottom: 60px;
+    .swiper-item {
+      margin-left: 20px;
+      width: calc(100% - 40px);
+      height: calc(100% - 20px);
+      border-radius: 16px;
+      box-shadow: 0 0px 10px 0px rgba(2, 10, 18, 0.1);
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+      .swiper-item-title {
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        margin: 20px auto;
+      }
+      .swiper-item-content {
+        padding-left: 20px;
+        .song-item {
+          display: flex;
+          align-items: center;
+          margin-bottom: 12px;
+          .image {
+            height: 120px;
+            width: 120px;
+            border-radius: 14px;
+          }
+          .index {
+            font-size: 30px;
+            font-weight: bold;
+            margin: 0 18px;
+          }
+          .name {
+            font-size: 28px;
+            max-width: 250px;
+          }
+          .art {
+            font-size: 22px;
+            color: #cc9;
+            margin-left: 8px;
+            max-width: 100px;
+          }
+        }
+      }
+    }
+  }
+}

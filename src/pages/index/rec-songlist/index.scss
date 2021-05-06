@@ -1,0 +1,40 @@
+.RecSongList {
+  margin-top: 24px;
+  background-color: #fff;
+  border-radius: 16px;
+  padding-top: 12px;
+  padding-bottom: 20px;
+
+  .songlist {
+    display: flex;
+    overflow-x: auto;
+    padding: 0 20px;
+
+    .songlist-item {
+      width: 200px;
+      padding-right: 22px;
+      // height: 250px;
+      .cover {
+        width: 200px;
+        height: 200px;
+        border-radius: 16px;
+        overflow: hidden;
+        .image {
+          width: 200px;
+          height: 200px;
+        }
+      }
+      .name {
+        font-size: 26px;
+        color: #4a4a4a;
+      }
+    }
+  }
+}
+
+// .text-o-2 {
+//   display: -webkit-box;
+//   overflow: hidden;
+//   -webkit-box-orient: vertical;
+//   -webkit-line-clamp: 2;
+// }

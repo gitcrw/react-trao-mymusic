@@ -1,0 +1,31 @@
+.SongList {
+  .song-item {
+    padding: 0 28px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    .index {
+      font-size: 28px;
+      color: #4a4a4a;
+      margin-right: 20px;
+    }
+    .song-con {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      // height: 100px;
+    }
+    .song-t {
+      margin-bottom: 10px;
+      .name {
+        font-size: 30px;
+        color: #000;
+      }
+    }
+    .song-b {
+      .art {
+        font-size: 28px;
+        color: #4a4a4a;
+      }
+    }
+  }
+}
